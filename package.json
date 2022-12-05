@@ -11,13 +11,16 @@
     "url": "git+https://github.com/fdiaznievas/AP-FrontEnd.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Diaz Nievas Carlos Fabricio",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fdiaznievas/AP-FrontEnd/issues"
   },
   "homepage": "https://github.com/fdiaznievas/AP-FrontEnd#readme",
   "devDependencies": {
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
   }
 }
