@@ -1,0 +1,23 @@
+{
+  "name": "ap-frontend",
+  "version": "1.0.0",
+  "description": "Modulo FrontEnd de Argentina Programa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdiaznievas/AP-FrontEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdiaznievas/AP-FrontEnd/issues"
+  },
+  "homepage": "https://github.com/fdiaznievas/AP-FrontEnd#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b092b;
+    color: white;
+}
+
+.main-container {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-gap: 10px;
+    
+    grid-template-areas: 
+    "name name name"
+    "social social perfil"
+    "social social perfil"
+    "desc desc desc"
+    "exp exp exp";
+
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+
+    border: 2px solid red;
+}
+
+header {
+    display: none;
+
+    border: 2px solid red;
+    height: auto;
+}
+
+/* ------ Cuadro de titulo nombre ------ */
+
+.name { 
+    grid-area: name;
+    text-align: center;
+    align-self: center;
+}
+
+/* ------ Cuadro de foto de perfil ------ */
+
+.imagen-perfil {
+    
+    background-color: lightslategray;
+    grid-area: perfil;
+}
+
+.imagen-perfil img {
+    object-fit: cover;    
+}
+
+
+/* ------ Cuadro de cargo y redes sociales ------ */
+.tarjeta-1 {
+    grid-area: social;
+    
+    background-color: blue;
+
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-redes {
+    padding: 0px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ul-redes > li {
+    list-style: none;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ------ Cuadro de descripcion de perfil ------ */
+.description {
+    grid-area: desc;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+
+/* ------ Cuadro de experiencia ------ */
+.experience {
+    
+    grid-area: exp;
+    justify-content: center;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
+
+footer {
+    display: none;
+
+    border: 2px solid red;
+}
+
+
+
+
+<main id="main" class="pb-4 pt-4 main-container">
+        <div class="container">
+            <section class="row name">
+                <h1 class="col">DIAZ NIEVAS, CARLOS FABRICIO</h1>
+            </section>
+            <div id="section-1" class="row pb-4 pt-4">
+                <picture class="col-4 imagen-perfil">
+                    <img src="./assets/images/perfil-small-sharped.png" alt="Foto de perfil">
+                </picture>
+                <section class="col-8 tarjeta-1">
+                    <ul id="ul-redes" class="ul-redes">
+                        <li class="li-linkedin">
+                            <a href="">Linkedin</a>
+                        </li>
+                        <li class="li-instagram">
+                            <a href="">Instagram</a>
+                        </li>
+                        <li class="li-whatsapp">
+                            <a href="">WhatsApp</a>
+                        </li>
+                        <li class="li-correo">
+                            <a href="">Correo</a>
+                        </li>
+                    </ul>
+                    <h2 class="profesion">Analista de Seguridad Fisica</h2>
+                </section>
+            </div>
+            <section class="row description">
+                <p class="row">Mi casa es tremenduki</p>
+            </section>
+            <div class="row">
+                <section class="col experience">
+    
+                </section>
+            </div>
+        </div>
+    </main>
