@@ -7,10 +7,24 @@
     background:white;
 }
 
-#header img {
-    width: 70px;
-    object-fit: cover;
+/*----------------- NAVBAR-----------------*/
+
+#logo-fdn{
+  width: 10%;
+  object-fit: cover;
 }
+
+#logo-ap {
+  width: 20%;
+  object-fit: cover;
+  filter: invert(100%);
+}
+
+
+
+/*----------------- /NAVBAR-----------------*/
+
+
 
 #carousel-main .carousel-inner .carousel-item img {
     object-fit: cover;
@@ -33,7 +47,7 @@
     color: white;
 }
 
-#carousel .overlay .container, 
+#carousel .overlay .container,
 #carousel .overlay .row {
     height: 100%;
 }
