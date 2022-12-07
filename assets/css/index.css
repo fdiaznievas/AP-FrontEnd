@@ -1,10 +1,8 @@
-.text-fdn {
-    color: #7532f9 !important;
-}
-
-
 #main {
     background:white;
+}
+.text-fdn {
+  color: #7532f9 !important;
 }
 
 /*----------------- NAVBAR-----------------*/
@@ -24,8 +22,7 @@
 
 /*----------------- /NAVBAR-----------------*/
 
-
-
+/*-----------------  CAROUSEL -----------------*/
 #carousel-main .carousel-inner .carousel-item img {
     object-fit: cover;
     filter: grayscale(75%);
@@ -36,6 +33,7 @@
     position: relative;
 }
 
+/*Overlay*/
 #carousel .overlay {
     z-index: 1;
     top: 0;
@@ -57,44 +55,45 @@
     background: white;
 }
 
-
-
 #overlay section, #overlay picture {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#section-1 {
-    background: black;
-}
-.container {
-    width: 100vw;
-}
-
-#footer {
-    background: linear-gradient(180deg,#33a5a9, 95%,#2f989c);
-}
-
-#footer a {
-    color: white;
-    text-decoration: none;
-}
-
 #ul-redes {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
 
 #ul-redes a, #ul-redes li {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
 }
 
 picture > img {
-    object-fit: cover;
+  object-fit: cover;
+}
+/*----------------- /CAROUSEL -----------------*/
+
+
+/*-----------------  SOBRE MI -----------------*/
+
+/*----------------- /SOBRE MI -----------------*/
+
+
+
+/*-----------------  FOOTER -----------------*/
+#footer {
+  background: linear-gradient(180deg,#33a5a9, 95%,#2f989c);
 }
 
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+/*----------------- /FOOTER -----------------*/
 
-/* ---------------------- MODALES ---------------------*/
+
+
